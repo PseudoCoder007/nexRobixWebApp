@@ -18,6 +18,8 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+  // HIDDEN for now (leadership / CEO details) - uncomment together with the Leadership Team section below
+  /*
   const leadership = [
     {
       name: "Aditya Kaushik",
@@ -40,6 +42,7 @@ export default function AboutPage() {
       focus: "Local Hardware Fabrication, 3D/CNC Sourcing & Component Quality Control",
     },
   ];
+  */
 
   return (
     <div className="py-12 bg-white">
@@ -103,7 +106,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Leadership Team */}
+        {/* HIDDEN for now: Leadership Team (CEO details). Remove this comment wrapper to restore.
         <div className="mt-20">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-bold uppercase tracking-wider text-[#FF6B00] px-3 py-1 rounded-full bg-orange-100/70 border border-orange-200">
@@ -129,6 +132,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
+        */}
 
         {/* Incubation Alignment */}
         <div className="mt-16 p-6 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
